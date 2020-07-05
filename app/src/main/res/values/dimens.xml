@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_padding">30dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tit_padding">15dp</dimen>
+    <dimen name="rank_padd">13dp</dimen>
+    <dimen name="card_padding">10dp</dimen>
+    <dimen name="radius">10dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="indicator_height">4dp</dimen>
+
+<!--    images-->
+    <dimen name="img">210dp</dimen>
+    <dimen name="img_card">5dp</dimen>
+</resources>

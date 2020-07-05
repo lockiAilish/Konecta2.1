@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "510687826187",
+    "firebase_url": "https://konecta2-2b4b5.firebaseio.com",
+    "project_id": "konecta2-2b4b5",
+    "storage_bucket": "konecta2-2b4b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510687826187:android:7aea3cbe5eb43d9bda920e",
+        "android_client_info": {
+          "package_name": "com.konecta2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510687826187-3kpqpat9157fbjim78ibu16t178auiab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8L6gF2sJOO-V-Azi1U9SBH5CEKWBBaWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510687826187-3kpqpat9157fbjim78ibu16t178auiab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

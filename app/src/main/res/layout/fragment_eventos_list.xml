@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventosListDetail">
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgEvento"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/img"
+                android:contentDescription="@string/event_image_content_description"
+                android:src="@drawable/even1"
+                android:padding="@dimen/indicator_height"/>
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/even1_tit"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/descrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/even1_dscrp"
+                android:textColor="@color/txtPrim1"
+                android:padding="@dimen/img_card"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgEvento2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/img"
+                android:contentDescription="@string/event_image_content_description"
+                android:src="@drawable/even2"
+                android:layout_marginRight="@dimen/img_card"
+                android:layout_marginLeft="@dimen/img_card"/>
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/even2_tit"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/descrip2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/even2_dscrp"
+                android:textColor="@color/txtPrim1"
+                android:padding="@dimen/img_card"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgEvento3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/img"
+                    android:contentDescription="@string/event_image_content_description"
+                    android:src="@drawable/even3"
+                    android:layout_margin="@dimen/img_card"/>
+
+                <TextView
+                    android:id="@+id/info3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even3_tit"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/descrip3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even3_dscrp"
+                    android:textColor="@color/txtPrim1"
+                    android:padding="@dimen/img_card"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgEvento4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/img"
+                    android:contentDescription="@string/event_image_content_description"
+                    android:src="@drawable/even4"
+                    android:layout_margin="@dimen/img_card"/>
+
+                <TextView
+                    android:id="@+id/info4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even4_tit"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/descrip4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even4_dscrp"
+                    android:textColor="@color/txtPrim1"
+                    android:padding="@dimen/img_card"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgEvento5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/img"
+                    android:contentDescription="@string/event_image_content_description"
+                    android:src="@drawable/even5"
+                    android:layout_marginLeft="@dimen/img_card"
+                    android:layout_marginRight="@dimen/img_card"/>
+
+                <TextView
+                    android:id="@+id/info5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even5_tit"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/descrip5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even5_dscrp"
+                    android:textColor="@color/txtPrim1"
+                    android:padding="@dimen/img_card"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgEvento6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/img"
+                    android:contentDescription="@string/event_image_content_description"
+                    android:src="@drawable/even6"
+                    android:layout_margin="@dimen/img_card"/>
+
+                <TextView
+                    android:id="@+id/info6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even6_tit"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/descrip6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even6_dscrp"
+                    android:textColor="@color/txtPrim1"
+                    android:padding="@dimen/img_card"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgEvento7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/img"
+                    android:contentDescription="@string/event_image_content_description"
+                    android:src="@drawable/even7"
+                    android:layout_marginLeft="@dimen/img_card"
+                    android:layout_marginRight="@dimen/img_card"/>
+
+                <TextView
+                    android:id="@+id/info7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even7_tit"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/descrip7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even7_dscrp"
+                    android:textColor="@color/txtPrim1"
+                    android:padding="@dimen/img_card"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgEvento8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/img"
+                    android:contentDescription="@string/event_image_content_description"
+                    android:src="@drawable/even8"
+                    android:layout_margin="@dimen/img_card"/>
+
+                <TextView
+                    android:id="@+id/info8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even8_tit"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/descrip8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/even8_dscrp"
+                    android:textColor="@color/txtPrim1"
+                    android:padding="@dimen/img_card"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

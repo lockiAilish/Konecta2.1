@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SondeoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sondeo_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/fab_margin"
+            android:text="@string/sondeo"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <RadioGroup
+            android:id="@+id/p1_GRButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            android:background="@color/bckAcc1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedBack_TextView">
+
+            <TextView
+                android:id="@+id/preg1_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preg1"
+                android:textAlignment="center"
+                android:textColor="@color/txtPrim1"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/p1o1_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p1o1"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p1o2_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p1o2"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p1o3_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p1o3"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p1o4_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p1o4"
+                android:textColor="@color/colorPrimaryDark" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/p2_GRButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:background="@color/bckAcc1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/p1_GRButton">
+
+            <TextView
+                android:id="@+id/preg2_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preg2"
+                android:textAlignment="center"
+                android:textColor="@color/txtPrim1"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/p2o1_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p2o1"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p2o2_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p2o2"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioButton
+                android:id="@+id/p2o3_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p2o3"
+                android:textColor="@color/colorPrimaryDark"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/p3_GRButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:background="@color/bckAcc1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/p2_GRButton">
+
+            <TextView
+                android:id="@+id/preg3_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preg3"
+                android:textAlignment="center"
+                android:textColor="@color/txtPrim1"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/p3o1_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p3o1"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p3o2_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p3o2"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioButton
+                android:id="@+id/p3o3_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p3o3"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioButton
+                android:id="@+id/p3o4_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p3o4"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioButton
+                android:id="@+id/p3o5_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p3o5"
+                android:textColor="@color/colorPrimaryDark"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/p4_GRButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:background="@color/bckAcc1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/p2_GRButton">
+
+            <TextView
+                android:id="@+id/preg4_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preg4"
+                android:textAlignment="center"
+                android:textColor="@color/txtPrim1"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/p4o1_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p4o1"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p4o2_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p4o2"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioButton
+                android:id="@+id/p4o3_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p4o3"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/p5_GRButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:background="@color/bckAcc1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/p2_GRButton">
+
+            <TextView
+                android:id="@+id/preg5_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preg5"
+                android:textAlignment="center"
+                android:textColor="@color/txtPrim1"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/p5o1_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p5o1"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p5o2_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p5o2"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioButton
+                android:id="@+id/p5o3_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p5o3"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/p6_GRButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:background="@color/bckAcc1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/p2_GRButton">
+
+            <TextView
+                android:id="@+id/preg6_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preg6"
+                android:textAlignment="center"
+                android:textColor="@color/txtPrim1"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/p6o1_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p6o1"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p6o2_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p6o2"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioButton
+                android:id="@+id/p6o3_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p6o3"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p6o4_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p6o4"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </RadioGroup>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/p7_Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/img_card"
+            app:cardBackgroundColor="@color/bckDark1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/indicator_height"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/preg7_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preg7"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtPrim1"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="58dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking1"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="@dimen/card_elevation"/>
+
+                    <RatingBar
+                        android:id="@+id/p7_RB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking2"
+                        android:textSize="12sp"
+                        android:layout_marginTop="@dimen/rank_padd"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/p8_Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/img_card"
+            app:cardBackgroundColor="@color/bckDark1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/indicator_height"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/preg8_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preg8"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtPrim1"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="58dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking1"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="@dimen/card_elevation"/>
+
+                    <RatingBar
+                        android:id="@+id/p8_RB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking2"
+                        android:textSize="12sp"
+                        android:layout_marginTop="@dimen/rank_padd"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/p9_Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/img_card"
+            app:cardBackgroundColor="@color/bckDark1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/indicator_height"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/preg9_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preg9"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtPrim1"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="58dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking1"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="@dimen/card_elevation"/>
+
+                    <RatingBar
+                        android:id="@+id/p9_RB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking2"
+                        android:textSize="12sp"
+                        android:layout_marginTop="@dimen/rank_padd"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/p10_Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/img_card"
+            app:cardBackgroundColor="@color/bckDark1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/indicator_height"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/preg10_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preg10"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtPrim1"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="58dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking1"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="@dimen/card_elevation"/>
+
+                    <RatingBar
+                        android:id="@+id/p10_RB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking2"
+                        android:textSize="12sp"
+                        android:layout_marginTop="@dimen/rank_padd"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/p11_Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            app:cardCornerRadius="@dimen/img_card"
+            app:cardBackgroundColor="@color/bckDark1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/indicator_height"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/preg11_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preg11"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtPrim1"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="58dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking1"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="@dimen/card_elevation"/>
+
+                    <RatingBar
+                        android:id="@+id/p11_RB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ranking2"
+                        android:textSize="12sp"
+                        android:layout_marginTop="@dimen/rank_padd"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RadioGroup
+            android:id="@+id/p12_GRButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            android:background="@color/bckDark1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedBack_TextView">
+
+            <TextView
+                android:id="@+id/preg12_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preg12"
+                android:textAlignment="center"
+                android:textColor="@color/txtPrim1"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/p12o1_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p12o1"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p12o2_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p12o2"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p12o3_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p12o3"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p12o4_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p12o4"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p12o5_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p12o5"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/p12o6_RButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p12o6"
+                android:textColor="@color/colorPrimaryDark" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/sendSond_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/radius"
+            android:layout_margin="@dimen/tit_padding"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:text="@string/enviarSondeo"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+</ScrollView>

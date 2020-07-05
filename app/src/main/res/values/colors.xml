@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#46FACE</color>
+    <color name="colorPrimaryDark">#5F7AFA</color>
+    <color name="colorAccent">#FA8E6B</color>
+
+<!--    background colors-->
+    <color name="bckPrimary">#A0FAE3</color>
+    <color name="bckDark1">#CFD6FA</color>
+    <color name="bkcDark2">#9FACFA</color>
+    <color name="bckAcc1">#E0BAAD</color>
+    <color name="bckAcc2">#EDE9E4</color>
+
+<!--    font colors-->
+    <color name="txtPrim1">#227A64</color>
+    <color name="txtPrim2">#103B30</color>
+    <color name="txtDark1">#5A4BE3</color>
+    <color name="txtAcc1">#E36556</color>
+</resources>
